@@ -12,7 +12,7 @@ describe('answer.js tests', () => {
             expect(result).to.equal(2);
         });
         it('should return 0', () => {
-            const result = answer.AdditivePersistence(4);;
+            const result = answer.AdditivePersistence(4);
             expect(result).to.equal(0);
         });
     });
@@ -22,15 +22,15 @@ describe('answer.js tests', () => {
             expect(result).to.equal("greatest");
         });
         it('should return `hello`', () => {
-            const result = answer.LetterCount("Hello apple pie");;
+            const result = answer.LetterCount("Hello apple pie");
             expect(result).to.equal("Hello");
         });
         it('should return `appple`', () => {
-            const result = answer.LetterCount("Hello appple pie");;
+            const result = answer.LetterCount("Hello appple pie");
             expect(result).to.equal("appple");
         });
         it('should return -1', () => {
-            const result = answer.LetterCount("No Words");;
+            const result = answer.LetterCount("No Words");
             expect(result).to.equal(-1);
         });
     });
